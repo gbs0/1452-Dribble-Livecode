@@ -1,78 +1,48 @@
 .card {
-    margin-bottom: 30px;
+  width: 500px;
 }
 
 .card-figure {
-    background-image: url("../images/background.jpeg");
-    width: 350px;
-    height: 250px;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.card-figure:hover {
-    .card-figure-infos {
-        opacity: 1;
-        transition: .3s;
-    }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), transparent 53%), linear-gradient(to top, rgba(0, 0, 0, 0.95), transparent 53%), url("/images/background.jpeg");
+  background-size: cover;
+  height: 350px;
+  border-radius: 16px;
 }
 
 .card-figure-infos {
-    opacity: 0;
-    transition: .3s;
-    display: flex;
-    align-items: center;
-    margin-top: 190px;
-    position: absolute;
-    padding: 0px 20px;
-    width: 310px;
-    justify-content: space-between;
+  position: absolute;
+  margin-top: 260px;
+  display: flex;
+  color: white;
+  width: 500px;
+  padding: 0px 25px;
+  font-size: 22px;
 }
 
-.card-figure-infos h3 {
-    color: white;
-}
-
-.card-figure-infos .icons {
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    height: 35px;
-    width: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 15px;
-}
-
-.drawer {
-    display: flex;
-}
-
-.icons i {
-    color: gray;
+.title {
+  padding-right: 140px;
 }
 
 .card-infos {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.card-infos h5 {
-    margin: 0;
-    margin-left: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .avatar {
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .figure-infos {
-    margin-left: 110px;
+  margin-left: 220px;
 }
 
-.figure-infos i {
-    color: gray;
+.icon {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 16px;
+  height: 60px;
+  margin-left: 8px;
 }
